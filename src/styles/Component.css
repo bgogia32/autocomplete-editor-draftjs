@@ -1,0 +1,72 @@
+.editor-wrapper {
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.editor-container {
+    background-color: whitesmoke;
+    text-align: left;
+    color: black;
+    display: flexbox;
+    height: 60vh;
+    padding: 16px;
+    width: 900px;
+}  
+
+.suggestions-dropdown {
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 200px;
+}
+
+.suggestion-item {
+    padding: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    color: black;
+}
+  
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+  
+.suggestion-item.highlighted {
+    background: #007bff;
+}
+
+.style-button {
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.3s;
+  }
+  
+  .style-button:hover {
+    background: #e0e0e0;
+  }
+  
+  .style-button.active {
+    background: #2196f3;
+    color: #fff;
+  }
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  /* Toolbar container */
+.toolbar-container {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    background: black;
+  }
