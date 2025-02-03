@@ -143,7 +143,7 @@ const AutocompleteEditor: React.FC = () => {
     };
 
     const insertSuggestion = () => {
-        console.log("Selected:", filteredSuggestions[highlightedIndex]);
+        //console.log("Selected:", filteredSuggestions[highlightedIndex]);
         const contentState = editorState.getCurrentContent();
         const selection = editorState.getSelection();
         const entityKey = contentState.createEntity("AUTOCOMPLETE", "IMMUTABLE").getLastCreatedEntityKey();

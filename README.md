@@ -1,3 +1,5 @@
+#Using node: 'v16.20.2' and npm: '8.19.4' due to old template constraint.
+
 # Ideaflow Technical JS take home
 
 Thanks for your interest in Ideaflow!
